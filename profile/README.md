@@ -1,3 +1,10 @@
+# 🚀 Tenantify
+### Ekosistem Digital untuk Pengelolaan Bazaar dan Food Court
+
+**Tenantify** adalah platform digital untuk mendigitalisasi dan mengelola aktivitas penjualan UMKM di area komersial seperti **Bazaar, Food Court, dan pusat kuliner**.
+
+Tenantify menghubungkan tiga peran utama — **Association, Seller, dan Consumer** — dalam satu ekosistem terintegrasi yang mencakup pengelolaan tenant, penjualan produk, pemetaan lokasi, rekomendasi produk berbasis AI, hingga pengalaman berbelanja yang lebih terorganisir.
+
 ---
 
 ## 👥 Tim Pengembang
@@ -14,34 +21,26 @@
 
 ## 📚 Repository & Sumber Proyek
 
-Tenantify dikembangkan dalam beberapa repository yang saling terintegrasi untuk membangun satu ekosistem digital. Berikut adalah repository resmi yang dapat diakses untuk melihat implementasi dan dokumentasi setiap komponen.
+Tenantify dikembangkan melalui beberapa repository yang saling terintegrasi untuk membangun satu ekosistem digital. Setiap repository memiliki tanggung jawab berbeda dalam pengembangan aplikasi utama dan layanan kecerdasan buatan.
 
 | Komponen | Repository | Deskripsi |
 |---|---|---|
-| **Organization** | [tenantify-hackathon](https://github.com/tenantify-hackathon) | Halaman utama organisasi dan pusat seluruh pengembangan proyek Tenantify. |
-| **Web Application** | [tenantify-web-app](https://github.com/tenantify-hackathon/tenantify-web-app) | Aplikasi utama Tenantify yang mencakup pengelolaan Association, Seller, dan Consumer. |
-| **Machine Learning** | [tenantify-ml-models](https://github.com/tenantify-hackathon/tenantify-ml-models) | Backend AI untuk rekomendasi produk UMKM dan moderasi komentar berbasis NLU. |
+| Organization | [tenantify-hackathon](https://github.com/tenantify-hackathon) | Organisasi GitHub sebagai pusat pengembangan seluruh komponen Tenantify. |
+| Web Application | [tenantify-web-app](https://github.com/tenantify-hackathon/tenantify-web-app) | Aplikasi utama untuk pengelolaan Association, Seller, dan Consumer. |
+| Machine Learning | [tenantify-ml-models](https://github.com/tenantify-hackathon/tenantify-ml-models) | Layanan AI untuk rekomendasi produk UMKM dan moderasi komentar berbasis NLU. |
 
-### Tautan Aplikasi
+### 🌐 Akses Aplikasi
 
-| Platform | URL |
+| Platform | Alamat Website |
 |---|---|
-| Customer Application | [tenantify.store](https://tenantify.store) |
-| Seller & Association Dashboard | [seller.tenantify.store](https://seller.tenantify.store) |
-
-Seluruh repository merupakan bagian dari pengembangan **Tenantify — Ekosistem Digital untuk Pengelolaan Bazaar dan Food Court**.
+| Customer Application | [https://tenantify.store](https://tenantify.store) |
+| Seller & Association Dashboard | [https://seller.tenantify.store](https://seller.tenantify.store) |
 
 ---
 
-# 🚀 Tenantify
-### Ekosistem Digital untuk Pengelolaan Bazaar dan Food Court
-
-**Tenantify** adalah platform digital untuk mendigitalisasi dan mengelola aktivitas penjualan UMKM di area komersial seperti **Bazaar, Food Court, dan pusat kuliner**.
-
-Tenantify menghubungkan tiga peran utama — **Association, Seller, dan Consumer** — dalam satu ekosistem terintegrasi yang mencakup pengelolaan tenant, penjualan produk, pemetaan lokasi, rekomendasi produk berbasis AI, hingga pengalaman berbelanja yang lebih terorganisir.
-
-
 ## ✨ Fitur Utama
+
+Tenantify menghadirkan berbagai fitur untuk mendukung digitalisasi dan pengelolaan aktivitas bisnis UMKM.
 
 - **Manajemen Multi-Role** — Dashboard terpisah untuk Association (pengelola area), Seller (pemilik tenant), dan Consumer (pembeli).
 - **Rekomendasi Produk Berbasis AI** — Rekomendasi produk lintas tenant menggunakan semantic similarity dan complementary scoring.
@@ -56,7 +55,7 @@ Tenantify menghubungkan tiga peran utama — **Association, Seller, dan Consumer
 
 ## 🔑 Akun Demo untuk Juri
 
-Untuk memudahkan proses pengujian dan eksplorasi fitur Tenantify, berikut akun demo yang dapat digunakan oleh juri berdasarkan masing-masing role.
+Untuk memudahkan proses penilaian, pengujian, dan eksplorasi fitur Tenantify, berikut kredensial akun demo yang telah disediakan berdasarkan masing-masing role.
 
 | Role | Email | Password |
 |---|---|---|
@@ -64,14 +63,14 @@ Untuk memudahkan proses pengujian dan eksplorasi fitur Tenantify, berikut akun d
 | Seller | `admin@kopikita.com` | `password123` |
 | Association | `cilegonjuare@gmail.com` | `cilegonjuare` |
 
-### Panduan Login
+### Panduan Pengujian
 
-Tenantify menyediakan dua alamat aplikasi berdasarkan kebutuhan pengguna:
+Tenantify menyediakan dua alamat aplikasi berdasarkan jenis pengguna:
 
-| Alamat Website | Pengguna |
+| Alamat Website | Role yang Dapat Diakses |
 |---|---|
-| [https://tenantify.store](https://tenantify.store) | Customer |
-| [https://seller.tenantify.store](https://seller.tenantify.store) | Seller & Association |
+| [tenantify.store](https://tenantify.store) | Consumer |
+| [seller.tenantify.store](https://seller.tenantify.store) | Seller & Association |
 
 **Langkah Pengujian:**
 
@@ -80,15 +79,15 @@ Tenantify menyediakan dua alamat aplikasi berdasarkan kebutuhan pengguna:
 3. Masukkan email dan password menggunakan akun demo yang telah disediakan.
 4. Setelah berhasil login, sistem akan mengarahkan pengguna ke halaman sesuai role dan hak akses masing-masing.
 
-**Catatan:** Gunakan akun demo di atas untuk keperluan pengujian dan eksplorasi fitur selama proses penilaian hackathon.
+> **Catatan:** Akun demo disediakan khusus untuk keperluan pengujian dan eksplorasi fitur selama proses penilaian hackathon.
 
 ---
 
 ## 🏗️ Arsitektur Sistem
 
-Tenantify dibangun menggunakan dua komponen utama yang saling terintegrasi:
+Tenantify dibangun menggunakan dua komponen utama yang saling terintegrasi, yaitu aplikasi web sebagai pusat proses bisnis dan layanan AI sebagai pendukung fitur rekomendasi serta moderasi konten.
 
-### 1. Aplikasi Utama Tenantify
+### 1. Tenantify Web Application
 
 Aplikasi utama yang menangani seluruh proses bisnis, pengelolaan data, autentikasi, transaksi, dan interaksi pengguna.
 
@@ -111,7 +110,7 @@ Aplikasi utama yang menangani seluruh proses bisnis, pengelolaan data, autentika
 
 ### 2. Tenantify AI Backend
 
-Microservice REST API yang menyediakan kemampuan kecerdasan buatan untuk rekomendasi produk UMKM dan moderasi teks.
+Layanan backend yang menyediakan kemampuan kecerdasan buatan untuk mendukung rekomendasi produk UMKM dan moderasi komentar pengguna.
 
 **Teknologi yang Digunakan:**
 
@@ -136,6 +135,8 @@ Microservice REST API yang menyediakan kemampuan kecerdasan buatan untuk rekomen
 
 ## 🔌 Dokumentasi API AI
 
+Tenantify AI menyediakan beberapa endpoint REST API untuk mendukung integrasi dengan aplikasi utama.
+
 | Metode | Endpoint | Deskripsi |
 |---|---|---|
 | GET | `/docs` | Dokumentasi API |
@@ -151,7 +152,7 @@ Microservice REST API yang menyediakan kemampuan kecerdasan buatan untuk rekomen
 
 ## 📂 Struktur Proyek
 
-Berikut gambaran struktur direktori aplikasi utama Tenantify:
+Berikut gambaran struktur direktori repository aplikasi utama Tenantify:
 
 ```text
 app/                  # Routing dan halaman aplikasi
@@ -169,35 +170,39 @@ validations/          # Skema validasi Zod
 
 ---
 
-## ⚙️ Panduan Instalasi
+## ⚙️ Panduan Instalasi & Menjalankan Proyek
+
+Bagian ini ditujukan bagi developer yang ingin menjalankan aplikasi Tenantify secara lokal.
 
 ### Prasyarat
 
-- Node.js 20+ (disarankan Node.js 24)
-- npm
-- Database PostgreSQL (Neon)
-- Akun Upstash Redis (opsional)
-- Token Vercel Blob
+Pastikan perangkat telah memiliki:
 
-### Menjalankan Proyek
+- Node.js 20+ (disarankan Node.js 24).
+- npm.
+- Database PostgreSQL (Neon).
+- Akun Upstash Redis (opsional, untuk caching).
+- Token Vercel Blob (untuk penyimpanan file).
+
+### 1. Clone Repository
 
 ```bash
-# Clone repository
-git clone <URL_REPOSITORY>
-
-# Masuk ke direktori proyek
-cd tenantify
-
-# Instal dependensi
-npm install
-
-# Jalankan server development
-npm run dev
+git clone https://github.com/tenantify-hackathon/tenantify-web-app.git
 ```
 
-Buka [http://localhost:3000](http://localhost:3000) untuk mengakses aplikasi.
+### 2. Masuk ke Direktori Proyek
 
-### Variabel Lingkungan
+```bash
+cd tenantify-web-app
+```
+
+### 3. Instal Dependensi
+
+```bash
+npm install
+```
+
+### 4. Konfigurasi Environment
 
 Buat file `.env` di direktori utama proyek:
 
@@ -221,6 +226,16 @@ BLOB_READ_WRITE_TOKEN=...
 # AI Service
 AI_SERVICE_URL=https://s4usan-tenantify-models.hf.space
 ```
+
+Sesuaikan seluruh nilai environment dengan kredensial layanan yang digunakan.
+
+### 5. Jalankan Aplikasi
+
+```bash
+npm run dev
+```
+
+Buka [http://localhost:3000](http://localhost:3000) untuk mengakses aplikasi melalui browser.
 
 ### Perintah yang Tersedia
 
@@ -246,5 +261,7 @@ Melalui kombinasi teknologi web modern dan kecerdasan buatan, Tenantify bertujua
 ---
 
 <p align="center">
-  Dibuat dengan ❤️ oleh <strong>Tim Saya Dapet Laporan Ada Hackathon di UNESA</strong>
+  Dibuat dengan ❤️ oleh
+  <br/>
+  <strong>Tim Saya Dapet Laporan Ada Hackathon di UNESA</strong>
 </p>
