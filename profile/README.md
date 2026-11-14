@@ -1,9 +1,14 @@
-# 🚀 Tenantify
-### Ekosistem Digital untuk Pengelolaan Bazaar dan Food Court
+---
 
-**Tenantify** adalah platform digital untuk mendigitalisasi dan mengelola aktivitas penjualan UMKM di area komersial seperti **Bazaar, Food Court, dan pusat kuliner**.
+## 👥 Tim Pengembang
 
-Tenantify menghubungkan tiga peran utama — **Association, Seller, dan Consumer** — dalam satu ekosistem terintegrasi yang mencakup pengelolaan tenant, penjualan produk, pemetaan lokasi, rekomendasi produk berbasis AI, hingga pengalaman berbelanja yang lebih terorganisir.
+**Nama Tim: Saya Dapet Laporan Ada Hackathon di UNESA**
+
+| Nama | Peran |
+|---|---|
+| Muhammad Kevin Alvarel | Fullstack Engineer |
+| Muhammad Sahrul Ramadhan | Fullstack Engineer |
+| Muhammad Sausan Syafiq | AI Engineer |
 
 ---
 
@@ -28,20 +33,13 @@ Seluruh repository merupakan bagian dari pengembangan **Tenantify — Ekosistem 
 
 ---
 
+# 🚀 Tenantify
+### Ekosistem Digital untuk Pengelolaan Bazaar dan Food Court
 
----
+**Tenantify** adalah platform digital untuk mendigitalisasi dan mengelola aktivitas penjualan UMKM di area komersial seperti **Bazaar, Food Court, dan pusat kuliner**.
 
-## 👥 Tim Pengembang
+Tenantify menghubungkan tiga peran utama — **Association, Seller, dan Consumer** — dalam satu ekosistem terintegrasi yang mencakup pengelolaan tenant, penjualan produk, pemetaan lokasi, rekomendasi produk berbasis AI, hingga pengalaman berbelanja yang lebih terorganisir.
 
-**Nama Tim: Saya Dapet Laporan Ada Hackathon di UNESA**
-
-| Nama | Peran |
-|---|---|
-| Muhammad Kevin Alvarel | Fullstack Engineer |
-| Muhammad Sahrul Ramadhan | Fullstack Engineer |
-| Muhammad Sausan Syafiq | AI Engineer |
-
----
 
 ## ✨ Fitur Utama
 
