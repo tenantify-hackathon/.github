@@ -32,6 +32,27 @@ Tenantify menghubungkan tiga peran utama — **Association, Seller, dan Consumer
 
 ---
 
+## 🔑 Akun Demo untuk Juri
+
+Untuk memudahkan proses pengujian dan eksplorasi fitur Tenantify, berikut akun demo yang dapat digunakan oleh juri berdasarkan masing-masing role.
+
+| Role | Email | Password |
+|---|---|---|
+| Consumer | `juri@tenantify.store` | `password123` |
+| Seller | `admin@kopikita.com` | `password123` |
+| Association | `cilegonjuare@gmail.com` | `cilegonjuare` |
+
+### Panduan Login
+
+1. Buka aplikasi Tenantify melalui alamat website yang telah disediakan.
+2. Pilih menu **Masuk / Login**.
+3. Masukkan email dan password sesuai role yang ingin diuji.
+4. Setelah berhasil login, sistem akan mengarahkan pengguna ke dashboard sesuai hak akses masing-masing.
+
+**Catatan:** Gunakan akun demo di atas untuk keperluan pengujian dan eksplorasi fitur selama proses penilaian hackathon.
+
+---
+
 ## 🏗️ Arsitektur Sistem
 
 Tenantify dibangun menggunakan dua komponen utama yang saling terintegrasi:
@@ -92,7 +113,7 @@ Microservice REST API yang menyediakan kemampuan kecerdasan buatan untuk rekomen
 | GET | `/orders` | Mengambil riwayat pesanan |
 | POST | `/recommend/by-product` | Rekomendasi berdasarkan produk pilihan |
 | POST | `/recommend/by-order` | Rekomendasi produk pelengkap berdasarkan pesanan |
-| POST | `/comments/classify` | Klasifikasi satu komentar |
+| POST | `/comments/classify` | Klasifikasi satu komentar pembeli |
 | POST | `/comments/moderate-batch` | Moderasi beberapa komentar sekaligus |
 
 ---
