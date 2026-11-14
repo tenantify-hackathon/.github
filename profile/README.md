@@ -44,10 +44,19 @@ Untuk memudahkan proses pengujian dan eksplorasi fitur Tenantify, berikut akun d
 
 ### Panduan Login
 
-1. Buka aplikasi Tenantify melalui alamat website yang telah disediakan.
+Tenantify menyediakan dua alamat aplikasi berdasarkan kebutuhan pengguna:
+
+| Alamat Website | Pengguna |
+|---|---|
+| [https://tenantify.store](https://tenantify.store) | Customer |
+| [https://seller.tenantify.store](https://seller.tenantify.store) | Seller & Association |
+
+**Langkah Pengujian:**
+
+1. Buka alamat website sesuai role yang ingin diuji.
 2. Pilih menu **Masuk / Login**.
-3. Masukkan email dan password sesuai role yang ingin diuji.
-4. Setelah berhasil login, sistem akan mengarahkan pengguna ke dashboard sesuai hak akses masing-masing.
+3. Masukkan email dan password menggunakan akun demo yang telah disediakan.
+4. Setelah berhasil login, sistem akan mengarahkan pengguna ke halaman sesuai role dan hak akses masing-masing.
 
 **Catatan:** Gunakan akun demo di atas untuk keperluan pengujian dan eksplorasi fitur selama proses penilaian hackathon.
 
